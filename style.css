@@ -11,22 +11,54 @@ body{
     justify-content: center;
     height: 400px;
     margin-left: -20px;
+    margin-top: 70px;
+    color: wheat;
 }
 #Toptext{
+    margin-top: 10px;
     color: wheat;
+    font-family: 'Tangerine', serif;
+    font-size: 58px;
+    font-weight: medium;
 }
 .image{
     margin-top: 100px;
-    height: 400px;
+    height: 500px;
     justify-content: center;
     display: flex;
     align-items: center;
     margin-left: 10px;
 }
+#name{
+    color: #FFC100;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+}
+span{
+    font-family: 'Pirata One', cursive;
+font-family: 'Redressed', cursive;
+font-size: 20px;
+}
+
+
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+
 
 
 @media (max-width:800px){
     .image{
-        margin-top: 0px;
+        margin-top: 20px;
+    }
+    #Toptext{
+        font-size: 38px;
+    }
+    .text{
+        justify-content: start;
+        align-items: center;
+        margin-top: -5px;
     }
 }
