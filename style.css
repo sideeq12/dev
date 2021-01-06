@@ -3,4 +3,14 @@ body{
 }
 .navbar{
     padding: 20px;
+    width: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+#Toptext{
+    color: wheat;
 }
