@@ -51,9 +51,6 @@ label{
 .image-cover{
     width: 110px;
     height: 130px;
-    border-radius: 40%;
-    border: 2px solid white;
-    background-image: cover;
 }
 #deta{
     display: flex;
@@ -85,6 +82,28 @@ span{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.footer{
+    margin-top: 30px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook, .twitter, .linkedin, .instagram{
+    margin: 20px;
+}
+.icon-cover{
+    width: 50px;
+    height: 50px;
 }
 
 
