@@ -10,6 +10,9 @@
     <!-- boostrap cdn js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
+        <!-- ckeditor -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.15.1/ckeditor.js"></script>
+
     <!-- google font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -205,33 +208,32 @@
 
 <section id="Contact">
   <div class="container Contact">
-    <h3 id="label">Contact </h3>
-    <hr/ style="color: white;">
     <div class="row">
       <div class="col-md-5" id="deta">
         <div class="image-cover">
           <img src="/images/sideeq.png" alt="sideeq image full stack developer" 
            width="100%" height="100%" style="display: block; object-fit: contain;">
         </div>
-        <h4>Hi, my name is Waheed Sodiq</h4>
+        <h4 style="color: #FFC100;">Hi, my name is Waheed Sodiq</h4>
         <p id="detap">I'm an undergraduate of computer science and engineering, I write codes and design for a living, currently freelancing on various platfrom
           as a developer and designer. I love building and contribute to opensource projects, need a quick discussion?, Kindly contact me.
         </p>
-          <h6>skills</h6>
+          <h4 style="color: #FFC100;">skills</h4>
           <div class="skills">
             <span style="background-color: orangered;">Html</span>
-          <span style="background-color: #111d5e;">CSS</span>
-          <span style="background-color: orangered;">Javascript</span>
-          <span style="background-color: orangered;">Nodejs</span>
-          <span style="background-color: orangered;">Reactjs</span>
-          <span style="background-color: orangered;">Expressjs</span>
-          <span style="background-color: orangered;">Ejs-template</span>
-          <span style="background-color: orangered;">C++</span>
-          <span style="background-color: orangered;">Git & Github</span>
-          <span style="background-color: orangered;">Mongodb</span>
+          <span style="background-color: #111d5e; color: white;">CSS</span>
+          <span style="background-color: #f5f4f4; color: #00303f;">Javascript</span>
+          <span style="background-color: #cc7351; color: white;">Nodejs</span>
+          <span style="background-color: #ffe6e6;">Reactjs</span>
+          <span style="background-color: black; color: white;">Expressjs</span>
+          <span style="background-color: #fa9579; color: black;">Ejs-template</span>
+          <span style="background-color: #aa8976; color: white;">C++</span>
+          <span style="background-color:  black; color: white;">Git & Github</span>
+          <span style="background-color: #111d5e; color: white;">Mongodb</span>
           </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6 form">
+        <h3 id="label">Contact </h3>
         <form action="https://formspree.io/f/xbjpqoaw" method="POST">
           <div class="form-group">
             <label for="_replyto">Email :</label>
@@ -254,5 +256,15 @@
     </div>
   </div>
 </section>
+<section id="footer">
+  <div class="container-fluid">
+    
+  </div>
+</section>
+  <script>
+     CKEDITOR.replace("message", {
+            plugins : "wysiwygarea , toolbar, basicstyles, link"
+        })
+  </script>
 </body>
 </html>

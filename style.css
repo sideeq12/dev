@@ -60,6 +60,18 @@ label{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 500px;
+    border-right: 2px solid white;
+}
+.form{
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+form{
+    width: 100%;
 }
 #detap{
     color: wheat;
@@ -95,5 +107,8 @@ span{
         justify-content: start;
         align-items: center;
         margin-top: -5px;
+    }
+    #deta{
+        border-right:none;
     }
 }
